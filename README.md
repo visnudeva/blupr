@@ -23,7 +23,7 @@ I have been waiting for someone to build it but no one did, so I am trying witho
 
 </div>
 
-## Preinstalled Flatpacks
+## Preinstalled Flatpaks
 
 <div>
 
@@ -38,7 +38,7 @@ I have been waiting for someone to build it but no one did, so I am trying witho
 - deluge
 - Geany
 
-(The preinstalled flatpacks will be installed automatically during the first minutes after the first boot)
+(The preinstalled flatpaks will be installed automatically during the first minutes after the first boot)
 </div>
 
 
