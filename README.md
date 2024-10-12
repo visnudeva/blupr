@@ -34,7 +34,7 @@ I have been waiting for someone to build it but no one did, so I am trying witho
 - telegram
 - Warehouse
 - Shortwave
-- g4music
+- gapless
 - deluge
 - Geany
 
