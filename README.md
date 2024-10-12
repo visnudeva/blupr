@@ -2,21 +2,30 @@
 
 **At the moment it is a work in progress. (alpha stage)**
 
-I wanted to make a riced but snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
+I want to make a simple, riced but snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
 based on Ublue just like Wayblue but inspired by prasanthrangan/hyprdots because I was tired of having to install hyprland and rice it manually every time I wanted it on a pc.
-I have been waiting for someone to build it but no one did, so I tried without much knowledge but as it is based on Ublue I didn't need to do all the upstream hard work and maintaining but just to tweak it to my liking, so here it is, it is mainly for own use, but anyone is also welcome to use it.
+I have been waiting for someone to build it but no one did, so I am trying without much knowledge but as it is based on Ublue I don't need to do all the upstream hard work and maintaining but just to tweak it to my liking, so here it is, it is mainly for own use, but anyone is also welcome to use it.
 
-**Here are the main shortcuts:**
+## Main Keybindings
 
-- super+T= kitty (terminal)
-- super+W= firefox (web browser)
-- super+F= thunar (file manager)
-- super+M = rofi (menu)
-- super+Q = quit a window
-- super+L = lock the screen
-- super+E = exit Hyprland
+<div align="left">
 
-**Here are the preinstalled flatpacks which will be getting installed automatically the first minutes after the first boot.**
+| Keys | Action |
+| :--- | :--- |
+| <kbd>Super</kbd> + <kbd>T</kbd> | kitty (terminal) |
+| <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
+| <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
+| <kbd>Super</kbd> + <kbd>M</kbd> | rofi (menu) |
+| <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
+| <kbd>Super</kbd> + <kbd>L</kbd> | lock the screen |
+| <kbd>Super</kbd> + <kbd>E</kbd> | exit Hyprland |
+| <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
+
+</div>
+
+## Preinstalled Flatpacks
+
+<div>
 
 - firefox
 - mpv
@@ -28,6 +37,10 @@ I have been waiting for someone to build it but no one did, so I tried without m
 - g4music
 - deluge
 - Geany
+
+(The preinstalled flatpacks will be installed automatically during the first minutes after the first boot)
+</div>
+
 
 ## Installation
 
