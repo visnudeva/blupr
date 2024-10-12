@@ -1,8 +1,33 @@
 # blupr &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+**At the moment it is a work in progress. (alpha stage)**
 
-After setup, it is recommended you update this README to describe your custom image.
+I wanted to make a riced but snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
+based on Ublue just like Wayblue but inspired by prasanthrangan/hyprdots because I was tired of having to install hyprland and rice it manually every time I wanted it on a pc.
+I have been waiting for someone to build it but no one did, so I tried without much knowledge but as it is based on Ublue I didn't need to do all the upstream hard work and maintaining but just to tweak it to my liking, so here it is, it is mainly for own use, but anyone is also welcome to use it.
+
+**Here are the main shortcuts:**
+
+- super+T= kitty (terminal)
+- super+W= firefox (web browser)
+- super+F= thunar (file manager)
+- super+M = rofi (menu)
+- super+Q = quit a window
+- super+L = lock the screen
+- super+E = exit Hyprland
+
+**Here are the preinstalled flatpacks which will be getting installed automatically the first minutes after the first boot.**
+
+- firefox
+- mpv
+- localsend
+- stremio
+- telegram
+- Warehouse
+- Shortwave
+- g4music
+- deluge
+- Geany
 
 ## Installation
 
