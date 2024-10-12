@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
 name: blupr
 # description will be included in the image's metadata
-description: This is my personal OS image.
+description: A personal Linux image built atop silverblue with Hyprland as a window manager.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 40 # latest is also supported if you want new updates ASAP
+image-version: lastest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -19,24 +19,125 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      # - micro
-      # - starship
+      # launcher
+      - rofi-wayland
+
+      # environment
+      - power-profiles-daemon
+      - xorg-x11-server-Xwayland
+      - polkit
+      - xfce-polkit 
+      - xdg-user-dirs
+      - dbus-tools
+      - dbus-daemon
+      - wl-clipboard
+      - pavucontrol
+      - playerctl
+      - qt5-qtwayland
+      - qt6-qtwayland
+      - vulkan-validation-layers
+      - vulkan-tools
+      - google-noto-emoji-fonts
+      - gnome-disk-utility
+      - ddcutil
+  
+      # sound
+      - wireplumber
+      - pipewire
+      - pamixer
+      - pulseaudio-utils
+
+      # networking
+      - network-manager-applet
+      - NetworkManager-openvpn
+      - NetworkManager-openconnect
+      - bluez
+      - bluez-tools
+      - blueman
+
+      # file manager
+      - thunar
+      - thunar-archive-plugin 
+      - thunar-volman
+      - xarchiver
+      - imv
+      - p7zip
+      - unrar
+      - gvfs-mtp
+      - gvfs-gphoto2
+      - gvfs-smb
+      - gvfs-nfs
+      - gvfs-fuse
+      - gvfs-archive
+      - android-tools
+
+      # screenshot
+      - slurp
+      - grim
+
+      # display
+      - wlr-randr
+      - wlsunset
+      - brightnessctl
+      - swaylock
+      - swayidle
+      - kanshi
+
+      # terminal
+      - kitty
+
+      # notifications
+      - dunst
+
+      # theme and GUI
+      - adwaita-qt5
+      - fontawesome-fonts-all
+      - gnome-themes-extra
+      - gnome-icon-theme
+      - paper-icon-theme
+      - breeze-icon-theme 
+      - papirus-icon-theme
+  
+      # hyprland
+      - hyprland
+      - waybar
+      - xdg-desktop-portal-hyprland
+      - brightnessctl
+
+      # sddm
+      - sddm
+      - sddm-themes
+      - qt5-qtgraphicaleffects
+      - qt5-qtquickcontrols2
+      - qt5-qtsvg
+      - kwallet
+      - pam-kwallet
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
-      # - firefox
-      # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - firefox
+      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         # - org.mozilla.firefox
         # - org.gnome.Loupe
+        - org.mozilla.firefox
+        - io.mpv.Mpv
+        - org.localsend.localsend_app
+        - com.stremio.Stremio
+        - org.telegram.desktop
+        - io.github.flattool.Warehouse
+        - de.haeckerfelix.Shortwave
+        - com.github.neithern.g4music
+        - org.deluge_torrent.deluge
+        - run org.geany.Geany
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
@@ -45,4 +146,3 @@ modules:
       # - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
