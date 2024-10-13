@@ -70,6 +70,8 @@ modules:
       - gvfs-fuse
       - gvfs-archive
       - android-tools
+      - gThumb
+      - Zathura
 
       # screenshot
       - slurp
