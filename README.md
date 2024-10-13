@@ -1,4 +1,10 @@
-# ![blupr](https://github.com/visnudeva/blupr/blupr00.png) &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
+<p align="center">
+  <a href="https://github.com/visnudeva/blupr">
+    <img src="https://github.com/visnudeva/blupr/blob/main/blupr00.png" width=200 />
+  </a>
+</p>
+
+# blupr &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
 **At the moment it is a work in progress. (alpha stage)**
 
