@@ -138,6 +138,7 @@ modules:
         - com.github.neithern.g4music
         - org.deluge_torrent.deluge
         - org.geany.Geany
+        - org.gimp.GIMP
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
