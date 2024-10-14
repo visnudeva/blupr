@@ -22,7 +22,7 @@ It is mainly for personal use, but anyone is also welcome to use it.
 | <kbd>Super</kbd> + <kbd>I</kbd> | geany (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
-| <kbd>Super</kbd> + <kbd>M</kbd> | rofi (menu) |
+| <kbd>Super</kbd> + <kbd>M</kbd> | wofi (menu) |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
 | <kbd>Super</kbd> + <kbd>L</kbd> | lock the screen |
 | <kbd>Super</kbd> + <kbd>E</kbd> | exit Hyprland |
