@@ -19,6 +19,7 @@ It is mainly for personal use, but anyone is also welcome to use it.
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>T</kbd> | kitty (terminal) |
+| <kbd>Super</kbd> + <kbd>I</kbd> | geany (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
 | <kbd>Super</kbd> + <kbd>M</kbd> | rofi (menu) |
