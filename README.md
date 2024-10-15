@@ -6,11 +6,11 @@
 
 # blupr &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
-**At the moment it is a work in progress. (alpha stage)**
-
-I want to make a simple, riced but snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
-based on Ublue just like Wayblue but more eye candy and focused on hyprland because this window manager really deserves its own distro.
+A functional but not yet finalised, simple, riced and snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
+based on Ublue and focused on hyprland because this window manager really deserves its own distro.
 It is mainly for personal use, but anyone is also welcome to use it.
+
+at the first login (gdm) choose hyprland as a the desktop environment otherwise it will boot on Gnome which is also functional.
 
 ## Main Keybindings
 
