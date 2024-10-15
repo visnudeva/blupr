@@ -89,7 +89,7 @@ modules:
       - kitty
 
       # notifications
-      - dunst
+      - mako
 
       # theme and GUI
       - adwaita-qt5
