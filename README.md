@@ -8,9 +8,10 @@
 
 A functional but not yet finalised, simple, riced and snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
 based on Ublue and focused on hyprland because this window manager really deserves its own distro.
+
 It is mainly for personal use, but anyone is also welcome to use it.
 
-at the first login (gdm) choose hyprland as a the desktop environment otherwise it will boot on Gnome which is also functional.
+At the first login (gdm) choose hyprland as a the desktop environment otherwise it will boot on Gnome which is also functional.
 
 ## Main Keybindings
 
