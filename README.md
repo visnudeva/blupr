@@ -6,7 +6,7 @@
 
 # blupr &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
-A functional but not yet finalised, simple, riced and snappy Atomic/immutable Linux distro with Hyprland as a window manager, 
+A functional but not yet finalised, simple, riced and snappy Atomic Linux distro with Hyprland as a window manager, 
 based on Ublue and focused on hyprland because this window manager really deserves its own distro.
 
 It is mainly for personal use, but anyone is also welcome to use it.
