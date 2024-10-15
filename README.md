@@ -24,9 +24,12 @@ It is mainly for personal use, but anyone is also welcome to use it.
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
 | <kbd>Super</kbd> + <kbd>M</kbd> | wofi (menu) |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
+| <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
 | <kbd>Super</kbd> + <kbd>L</kbd> | lock the screen |
 | <kbd>Super</kbd> + <kbd>E</kbd> | exit Hyprland |
-| <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
+| <kbd>Super</kbd> + <kbd>S</kbd> | suspend |
+| <kbd>Super</kbd> + <kbd>P</kbd> | poweroff |
+| <kbd>Super</kbd> + <kbd>R</kbd> | reboot |
 
 </div>
 
