@@ -10,11 +10,17 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+   - type: files
+     files:
+      - source: system/usr/share/hyprland
+        destination:/usr/share/hyprland
 
+      - source: system/usr/etc/xdg/waybar
+        destination:/usr/etc/xdg/waybar/
+
+      - source: system/usr/etc
+        destination:/usr/etc
+        
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
