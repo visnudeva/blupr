@@ -16,7 +16,7 @@ modules:
         destination:/usr/share/hyprland
 
       - source: system/usr/etc/xdg/waybar
-        destination:/usr/etc/xdg/waybar/
+        destination:/usr/etc/xdg/waybar
 
       - source: system/usr/etc
         destination:/usr/etc
