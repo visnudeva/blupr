@@ -13,13 +13,13 @@ modules:
    - type: files
      files:
       - source: system/usr/share/hyprland
-        destination:/usr/share/hyprland
+        destination: /usr/share/hyprland
 
       - source: system/usr/etc/xdg/waybar
-        destination:/usr/etc/xdg/waybar
+        destination: /usr/etc/xdg/waybar
 
       - source: system/usr/etc
-        destination:/usr/etc
+        destination: /usr/etc
         
   - type: rpm-ostree
     repos:
