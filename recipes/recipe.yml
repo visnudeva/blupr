@@ -26,7 +26,7 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       # launcher
-      - wofi
+      - tofi
 
       # environment
       - power-profiles-daemon
@@ -90,6 +90,9 @@ modules:
       - swayidle
       - kanshi
       - hyprpaper
+      - wlogout
+      - pywall
+      - swww
 
       # terminal
       - kitty
@@ -111,15 +114,7 @@ modules:
       - waybar
       - xdg-desktop-portal-hyprland
       - brightnessctl
-
-      # sddm
-      - sddm
-      - sddm-themes
-      - qt5-qtgraphicaleffects
-      - qt5-qtquickcontrols2
-      - qt5-qtsvg
-      - kwallet
-      - pam-kwallet
+      
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
