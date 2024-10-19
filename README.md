@@ -24,7 +24,7 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 | <kbd>Super</kbd> + <kbd>I</kbd> | geany (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
-| <kbd>Super</kbd> + <kbd>M</kbd> | tofi (menu) |
+| <kbd>Super</kbd> + <kbd>M</kbd> | fuzzel (menu) |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
 | <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
 | <kbd>Super</kbd> + <kbd>L</kbd> | lock the screen |
