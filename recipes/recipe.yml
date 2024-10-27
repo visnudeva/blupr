@@ -27,6 +27,8 @@ modules:
     install:
       # launcher
       - fuzzel
+      - rofi
+      - wofi
 
       # environment
       - power-profiles-daemon
