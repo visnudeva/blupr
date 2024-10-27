@@ -27,7 +27,7 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 | <kbd>Super</kbd> + <kbd>M</kbd> | wofi (menu) |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
 | <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
-| <kbd>Super</kbd> + <kbd>L</kbd> | wlogout (log out menu) |
+| <kbd>Super</kbd> + <kbd>L</kbd> | wlogout (power menu) |
 
 </div>
 
