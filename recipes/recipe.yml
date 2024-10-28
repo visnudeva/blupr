@@ -94,6 +94,7 @@ modules:
 
       # terminal
       - kitty
+      - fastfetch
 
       # notifications
       - mako
