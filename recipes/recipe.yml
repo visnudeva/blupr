@@ -91,6 +91,7 @@ modules:
       - kanshi
       - hyprpaper
       - wlogout
+      - cava
 
       # terminal
       - kitty
