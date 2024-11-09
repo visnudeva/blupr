@@ -45,6 +45,9 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 - gapless
 - deluge
 - Geany
+- Gimp
+- Qview
+- Bottles
 
 (The preinstalled flatpaks will be installed automatically during the first minutes after the first boot)
 </div>
