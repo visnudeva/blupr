@@ -1,0 +1,48 @@
+* {
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #7878ff;
+  background: transparent;
+}
+
+#window {
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #7878ff;
+}
+
+#input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0px;
+  box-shadow: inset 0 -3px transparent;
+}
+
+#outer-box {
+  padding: 20px;
+  background-color:#1b1b1b;
+}
+
+#img {
+  margin-right: 6px;
+}
+
+#entry {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#entry:selected {
+  background-color: #7878ff;
+  border: 1px solid #ffffff;
+}
+
+#text {
+  margin: 2px;
+}
+
+#text:selected {
+	background-color: #7878ff;
+	color:#1b1b1b;
+}
