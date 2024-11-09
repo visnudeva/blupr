@@ -13,7 +13,7 @@ modules:
   - type: files
     files:
       - source: config
-        destination: /.config
+        destination: /usr/etc/
   - type: rpm-ostree
     repos: null
     install:
