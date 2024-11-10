@@ -85,7 +85,6 @@ modules:
       - brightnessctl
       - hyprlock
       - hypridle
-      - hyprpaper
       - swww
       - waypaper
       - wlogout
