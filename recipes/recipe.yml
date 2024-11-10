@@ -12,7 +12,7 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - source: config/*
+      - source: config
         destination: /usr/etc/
   - type: rpm-ostree
     repos: null
