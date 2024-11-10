@@ -86,6 +86,7 @@ modules:
       - hyprlock
       - hypridle
       - hyprpaper
+      - swww
       - waypaper
       - wlogout
       - kanshi
