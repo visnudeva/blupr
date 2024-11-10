@@ -18,7 +18,9 @@ modules:
       - source: config
         destination: /usr/etc/
   - type: rpm-ostree
-    repos: null
+    repos: 
+      # hyprland
+      - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
     install:
       # launcher
       - wofi
@@ -84,6 +86,7 @@ modules:
       - hyprlock
       - hypridle
       - hyprpaper
+      - waypaper
       - wlogout
       - kanshi
       - cava
