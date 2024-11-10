@@ -7,9 +7,9 @@ pkgver=0.7.3
 theme=blupr
 
 mkdir -p ~/.config/hypr/
-cp -f /config/hyprland/hyprland.conf ~/.config/hypr/
+cp -f config/hyprland/hyprland.conf ~/.config/hypr/
 
-cp -f /config/hyprland/bluprdark.png ~/.config/hypr/
+cp -f config/hyprland/bluprdark.png ~/.config/hypr/
 
-cp -f /config/hyprland/hyprpaper.conf ~/.config/hypr/
+cp -f config/hyprland/hyprpaper.conf ~/.config/hypr/
 
