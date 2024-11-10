@@ -104,7 +104,6 @@ modules:
       - breeze-icon-theme 
       - papirus-icon-theme
       - lxappearance
-      - nwg-look
   
       # hyprland
       - hyprland
