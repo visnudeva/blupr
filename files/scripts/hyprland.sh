@@ -7,6 +7,7 @@ pkgver=0.7.3
 theme=blupr
 
 wget https://github.com/visnudeva/blupr/tree/main/files/config/hyprland/hyprland.conf
+mkdir -p ~/.config/hypr/
 cp -f hyprland.conf ~/.config/hypr/
 rm -rf hyprland.conf*
 
