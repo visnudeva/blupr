@@ -81,11 +81,11 @@ modules:
       - wlr-randr
       - wlsunset
       - brightnessctl
-      - swaylock
-      - swayidle
-      - kanshi
+      - hyprlock
+      - hypridle
       - hyprpaper
       - wlogout
+      - kanshi
       - cava
 
       # terminal
