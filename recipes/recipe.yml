@@ -10,10 +10,13 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: script
+    scripts:
+      - hyprland.sh
   - type: files
     files:
-      - source: config/hyprland
-        destination: ~/.config/hypr
+      - source: config
+        destination: /usr/etc/
   - type: rpm-ostree
     repos: null
     install:
