@@ -13,7 +13,7 @@ modules:
   - type: files
     files:
       - source: config/hyprland
-        destination: /usr/share/hyprland
+        destination: ~/.config/hypr
   - type: rpm-ostree
     repos: null
     install:
