@@ -15,7 +15,7 @@ modules:
       - hyprland.sh
   - type: files
     files:
-      - source: config
+      - source: config/*
         destination: /usr/etc/
   - type: rpm-ostree
     repos: null
