@@ -12,8 +12,8 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - source: config
-        destination: /usr/etc/
+      - source: config/hyprland
+        destination: /usr/share/hyprland
   - type: rpm-ostree
     repos: null
     install:
