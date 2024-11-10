@@ -6,15 +6,10 @@ set -oue pipefail
 pkgver=0.7.3
 theme=blupr
 
-wget https://github.com/visnudeva/blupr/tree/main/files/config/hyprland/hyprland.conf
 mkdir -p ~/.config/hypr/
-cp -f hyprland.conf ~/.config/hypr/
-rm -rf hyprland.conf*
+cp -f /usr/etc/hyprland/hyprland.conf ~/.config/hypr/
 
-wget https://github.com/visnudeva/blupr/tree/main/files/config/hyprland/bluprdark.png
-cp -f bluprdark.png ~/.config/hypr/
-rm -rf bluprdark.png*
+cp -f /usr/etc/hyprland/bluprdark.png ~/.config/hypr/
 
-wget https://github.com/visnudeva/blupr/tree/main/files/config/hyprland/hyprpaper.conf
-cp -f hyprpaper.conf ~/.config/hypr/
-rm -rf hyprpaper.conf*
+cp -f /usr/etc/hyprland/hyprpaper.conf ~/.config/hypr/
+
