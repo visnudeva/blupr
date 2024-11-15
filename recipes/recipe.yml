@@ -134,12 +134,13 @@ modules:
         - de.haeckerfelix.Shortwave
         - com.github.neithern.g4music
         - org.deluge_torrent.deluge
-        - org.geany.Geany
         - org.gimp.GIMP
         - com.interversehq.qView
         - com.usebottles.bottles
         - dev.zed.Zed
         - org.shotcut.Shotcut
+        - org.upscayl.Upscayl
+        - org.onlyoffice.desktopeditors
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
