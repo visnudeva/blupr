@@ -131,6 +131,7 @@ modules:
         - com.stremio.Stremio
         - org.telegram.desktop
         - io.github.flattool.Warehouse
+        - com.github.KRTirtho.Spotube
         - de.haeckerfelix.Shortwave
         - com.github.neithern.g4music
         - org.deluge_torrent.deluge
