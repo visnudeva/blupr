@@ -21,7 +21,7 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>T</kbd> | kitty (terminal) |
-| <kbd>Super</kbd> + <kbd>I</kbd> | geany (IDE) |
+| <kbd>Super</kbd> + <kbd>I</kbd> | zed (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
 | <kbd>Super</kbd> + <kbd>M</kbd> | wofi (menu) |
