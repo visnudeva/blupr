@@ -139,7 +139,7 @@ modules:
         - com.interversehq.qView
         - com.usebottles.bottles
         - dev.zed.Zed
-        - org.shotcut.Shotcut
+        - org.kde.kdenlive
         - org.upscayl.Upscayl
         - org.onlyoffice.desktopeditors
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
