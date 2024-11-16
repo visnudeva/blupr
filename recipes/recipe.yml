@@ -12,7 +12,7 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - source: dotfiles
+      - source: config
         destination: ~/dotfiles
   - type: rpm-ostree
     repos: 
