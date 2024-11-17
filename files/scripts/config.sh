@@ -4,7 +4,7 @@
 set -oue pipefail
 
 # Define variables for the source and link paths
-DOTFILES_DIR="$HOME/config"
+DOTFILES_DIR="$HOME/etc/skel"
 CONFIG_DIR="$HOME/.config"
 
 # Create the configuration directory if it doesn't exist
