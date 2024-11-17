@@ -15,7 +15,7 @@ modules:
       - config.sh
   - type: files
     files:
-      - source: config
+      - source: etc/skel
         destination: ~/.config
   - type: rpm-ostree
     repos: 
