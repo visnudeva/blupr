@@ -10,6 +10,10 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: files
+    files:
+      - source: /etc/skel/.config
+        destination: /etc/skel/.config
   - type: rpm-ostree
     repos: 
       # hyprland
