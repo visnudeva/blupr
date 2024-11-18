@@ -35,19 +35,26 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 
 <div>
 
-- firefox
-- mpv
-- localsend
-- stremio
-- telegram
+- Firefox
+- Mpv
+- Localsend
+- Stremio
+- Telegram
 - Warehouse
 - Shortwave
-- gapless
-- deluge
+- Tapless
+- Deluge
 - Geany
 - Gimp
 - Qview
 - Bottles
+- Zed
+- Kdenlive
+- Upscayl
+- Onlyoffice
+- Parabolic
+- Notesnook
+- Eyedropper
 
 (The preinstalled flatpaks will be installed automatically during the first minutes after the first boot)
 </div>
