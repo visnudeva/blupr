@@ -14,7 +14,7 @@ It is mainly for personal use, but anyone is also welcome to use it.
 
 At the first login (gdm) choose hyprland as a the desktop environment otherwise it will boot on Gnome which is also functional.
 
-## Main Keybindings
+## Main Keybindings (US Keyboard)
 
 <div align="left">
 
