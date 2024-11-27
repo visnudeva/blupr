@@ -25,7 +25,6 @@ modules:
       # launcher
       - wofi
       # environment
-      - power-profiles-daemon
       - xorg-x11-server-Xwayland
       - polkit
       - xfce-polkit 
