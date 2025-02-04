@@ -117,7 +117,7 @@ modules:
       repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
-        - io.mpv.Mpv
+        - org.videolan.VLC
         - org.localsend.localsend_app
         - com.stremio.Stremio
         - org.telegram.desktop
