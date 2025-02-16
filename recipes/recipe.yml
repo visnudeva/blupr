@@ -118,6 +118,7 @@ modules:
       install:
         - org.mozilla.firefox
         - org.videolan.VLC
+        - me.timschneeberger.jdsp4linux
         - org.localsend.localsend_app
         - com.stremio.Stremio
         - org.telegram.desktop
