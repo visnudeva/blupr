@@ -1,4 +1,4 @@
-**ALPHA**
+**BETA**
 <p align="center">
   <a href="https://github.com/visnudeva/bluiri">
     <img src="https://github.com/visnudeva/blupr/blob/main/bluiri1.png" width=200 />
@@ -9,12 +9,12 @@
 
 **I decided to move from Hyprland to Niri because it is what i am currently using, so from today (March 22/2025) i will star making changes to get to where i want to go, the name will change from blupr to bluiri**
 
-A work in progress of a simple riced Atomic Linux distro with Hyprland as a window manager which can make older computers fast and snappy with its low CPU and RAM usage but also modern and beautiful.
-Based on Ublue and focused on hyprland because this window manager really deserves its own functional and themed distro out of the box.
+A work in progress of a simple riced Atomic Linux distro with Niri as a window manager which can make older computers fast and snappy with its low CPU and RAM usage but also modern and beautiful.
+Based on Ublue and focused on niri because this window manager really deserves its own functional and themed distro out of the box.
 
 It is mainly for personal use, but anyone is also welcome to use it.
 
-At the first login (gdm) choose hyprland as a the desktop environment otherwise it will boot on Gnome which is also functional.
+At the first login (gdm) choose niri as a the desktop environment otherwise it will boot on Gnome which is also functional.
 
 ## Main Keybindings (US Keyboard)
 
@@ -97,5 +97,5 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/visnudeva/blupr
+cosign verify --key cosign.pub ghcr.io/visnudeva/bluiri
 ```
