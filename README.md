@@ -5,7 +5,7 @@
   </a>
 </p>
 
-# bluiri (prononced blurry) &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
+# bluiri (blurry) &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
 **I decided to move from Hyprland to Niri because it is what i am currently using, so from today (March 22/2025) i will star making changes to get to where i want to go, the name will change from blupr to bluiri**
 
