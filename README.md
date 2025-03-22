@@ -9,7 +9,7 @@
 
 **I decided to move from Hyprland to Niri because it is what i am currently using, so from today (March 22/2025) i will star making changes to get to where i want to go, the name will change from blupr to bluiri**
 
-THE INFO BELOW DIDNT GET UPDATED YET
+THE INFO BELOW DIDNT GET FULLY UPDATED YET
 
 A work in progress of a simple riced Atomic Linux distro with Hyprland as a window manager which can make older computers fast and snappy with its low CPU and RAM usage but also modern and beautiful.
 Based on Ublue and focused on hyprland because this window manager really deserves its own functional and themed distro out of the box.
@@ -28,7 +28,7 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 | <kbd>Super</kbd> + <kbd>I</kbd> | zed (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
-| <kbd>Super</kbd> + <kbd>M</kbd> | wofi (menu) |
+| <kbd>Super</kbd> + <kbd>M</kbd> | fuzzel (menu) |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
 | <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
 | <kbd>Super</kbd> + <kbd>L</kbd> | wlogout (power menu) |
@@ -74,7 +74,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/visnudeva/blupr:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/visnudeva/bluiri:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -82,7 +82,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/visnudeva/blupr:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/visnudeva/bluiri:latest
   ```
 - Reboot again to complete the installation
   ```
