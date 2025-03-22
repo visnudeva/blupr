@@ -1,11 +1,11 @@
 **ALPHA**
 <p align="center">
-  <a href="https://github.com/visnudeva/blupr">
-    <img src="https://github.com/visnudeva/blupr/blob/main/blupr00.png" width=200 />
+  <a href="https://github.com/visnudeva/bluiri">
+    <img src="https://github.com/visnudeva/blupr/blob/main/bluiri1.png" width=200 />
   </a>
 </p>
 
-# blupr &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
+# bluiri &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
 **I decided to move from Hyprland to Niri because it is what i am currently using, so from today (March 22/2025) i will star making changes to get to where i want to go, the name will change from blupr to bluiri**
 
