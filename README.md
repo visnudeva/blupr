@@ -50,13 +50,11 @@ Media
 Productivity
 - Onlyoffice
 - Zed
-- Kdenlive
   
 Utilities
 - Qview
 - Localsend
 - Warehouse
-- Upscayl
   
 (The preinstalled flatpaks will be installed automatically during the first minutes after the first boot)
 </div>
