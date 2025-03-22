@@ -80,8 +80,6 @@ modules:
       - brightnessctl
       - hyprlock
       - hypridle
-      - swww
-      - waypaper
       - wlogout
       - kanshi
       - cava
@@ -92,7 +90,6 @@ modules:
       # notifications
       - dunst
       # theme and GUI
-      - hyprlock
       - fontawesome-fonts-all
       - gnome-themes-extra
       - gnome-icon-theme
