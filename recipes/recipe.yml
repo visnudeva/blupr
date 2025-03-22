@@ -88,6 +88,7 @@ modules:
       # terminal
       - kitty
       - fastfetch
+      - htop
       # notifications
       - dunst
       # theme and GUI
