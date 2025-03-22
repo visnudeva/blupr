@@ -92,6 +92,7 @@ modules:
       # notifications
       - dunst
       # theme and GUI
+      - hyprlock
       - fontawesome-fonts-all
       - gnome-themes-extra
       - gnome-icon-theme
