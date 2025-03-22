@@ -8,7 +8,7 @@
 # bluiri (blurry) &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
 
 A work in progress of a simple riced Atomic Linux distro with Niri as a window manager which can make older computers fast and snappy with its low CPU and RAM usage but also modern and beautiful.
-Based on Ublue and focused on niri because this window manager really deserves its own functional and themed distro out of the box.
+Based on Universal Blue and focused on niri because this window manager really deserves its own functional and themed distro out of the box.
 
 It is mainly for personal use, but anyone is also welcome to use it.
 
