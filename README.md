@@ -25,13 +25,12 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>T</kbd> | kitty (terminal) |
-| <kbd>Super</kbd> + <kbd>I</kbd> | zed (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
 | <kbd>Super</kbd> + <kbd>M</kbd> | fuzzel (menu) |
 | <kbd>Super</kbd> + <kbd>Q</kbd> | quit a window |
-| <kbd>Super</kbd> + <kbd>X</kbd> | fullscreen |
-| <kbd>Super</kbd> + <kbd>L</kbd> | wlogout (power menu) |
+| <kbd>Super</kbd> + <kbd>X</kbd> | expand window |
+| <kbd>Super</kbd> + <kbd>L</kbd> | hyprlock (power menu) |
 
 </div>
 
