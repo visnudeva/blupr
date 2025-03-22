@@ -41,28 +41,24 @@ At the first login (gdm) choose hyprland as a the desktop environment otherwise 
 
 Web
 - Firefox
-- Deluge
+- Transmission
 - Telegram
 
 Media
-- Mpv
-- Gapless
-- Shortwave
+- VLC
+- Musicpod
 - Stremio
 - Bottles
-- Parabolic
 
 Productivity
 - Onlyoffice
 - Notesnook
 - Zed
-- Gimp
 - Kdenlive
   
 Utilities
 - Qview
 - Localsend
-- Eyedropper
 - Warehouse
 - Upscayl
   
