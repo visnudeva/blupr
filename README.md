@@ -52,7 +52,6 @@ Media
 
 Productivity
 - Onlyoffice
-- Notesnook
 - Zed
 - Kdenlive
   
