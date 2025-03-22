@@ -1,4 +1,4 @@
-**BETA**
+**ALPHA**
 <p align="center">
   <a href="https://github.com/visnudeva/blupr">
     <img src="https://github.com/visnudeva/blupr/blob/main/blupr00.png" width=200 />
@@ -6,6 +6,8 @@
 </p>
 
 # blupr &nbsp; [![bluebuild build badge](https://github.com/visnudeva/blupr/actions/workflows/build.yml/badge.svg)](https://github.com/visnudeva/blupr/actions/workflows/build.yml)
+
+**I decided to move from Hyprland to Niri because it is what i am currently using, so from today (March 22/2025) i will star making changes to get to where i want to go.**
 
 A work in progress of a simple riced Atomic Linux distro with Hyprland as a window manager which can make older computers fast and snappy with its low CPU and RAM usage but also modern and beautiful.
 Based on Ublue and focused on hyprland because this window manager really deserves its own functional and themed distro out of the box.
