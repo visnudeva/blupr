@@ -84,7 +84,6 @@ modules:
       - kanshi
       - cava
       # terminal
-      - kitty
       - fastfetch
       - htop
       # notifications
