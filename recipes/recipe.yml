@@ -13,8 +13,8 @@ modules:
   - type: files
     files:
       # what is in /etc/skel/ gets copied to a newly created user’s $HOME automatically after rebooting 
-      - source: /etc/skel/.config
-        destination: /etc/skel/.config
+      - source: usr/etc/skel/.config
+        destination: usr/etc/skel/.config
 
   - type: rpm-ostree
     repos: 
