@@ -97,7 +97,7 @@ modules:
       - lxappearance
       - swaybg
       # wm
-      # - hyprland
+      - geany
       - niri
       - waybar
       # - xdg-desktop-portal-hyprland
