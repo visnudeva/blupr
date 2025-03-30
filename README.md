@@ -21,6 +21,7 @@ At the first login (gdm) choose niri as a the desktop environment otherwise it w
 | Keys | Action |
 | :--- | :--- |
 | <kbd>Super</kbd> + <kbd>T</kbd> | alacritty (terminal) |
+| <kbd>Super</kbd> + <kbd>I</kbd> | geany (IDE) |
 | <kbd>Super</kbd> + <kbd>W</kbd> | firefox (web browser) |
 | <kbd>Super</kbd> + <kbd>F</kbd> | thunar (file manager) |
 | <kbd>Super</kbd> + <kbd>M</kbd> | fuzzel (menu) |
