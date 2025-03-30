@@ -249,7 +249,8 @@ layout {
 // spawn-at-startup "alacritty" "-e" "fish"
     //spawn-at-startup "pipewire"
     //spawn-at-startup "wireplumber"
-    spawn-at-startup "swaybg" "-o" "eDP-1" "-i" "/usr/share/endeavouros/backgrounds/bluprdark.png" "-m" "fill"
+    //spawn-at-startup "swaybg" "-o" "eDP-1" "-i" "/usr/share/endeavouros/backgrounds/bluprdark.png" "-m" "fill"
+    spawn-at-startup "swaybg" "-o" "eDP-1" "-i" "~/.config/niri/bluiridark.png" "-m" "fill"
     spawn-at-startup "waybar"
     spawn-at-startup "swayidle"
     spawn-at-startup "dunst"
@@ -388,7 +389,8 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+T { spawn "alacritty"; }
+    Mod+T { spawn "kitty"; }
+    Mod+I { spawn "geany"; }
     Mod+M { spawn "fuzzel"; }
     Mod+W { spawn "firefox"; }
     Mod+F { spawn "thunar"; }
@@ -466,8 +468,8 @@ binds {
 
     Mod+Page_Down      { focus-workspace-down; }
     Mod+Page_Up        { focus-workspace-up; }
-    Mod+U              { focus-workspace-down; }
-    Mod+I              { focus-workspace-up; }
+    //Mod+U              { focus-workspace-down; }
+    //Mod+I              { focus-workspace-up; }
     Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
     Mod+Ctrl+Page_Up   { move-column-to-workspace-up; }
     Mod+Ctrl+U         { move-column-to-workspace-down; }
