@@ -1,4 +1,4 @@
-**BETA**
+**ALPHA**
 <p align="center">
   <a href="https://github.com/visnudeva/bluiri">
     <img src="https://github.com/visnudeva/blupr/blob/main/bluiri1.png" width=200 />
