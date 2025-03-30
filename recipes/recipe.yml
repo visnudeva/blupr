@@ -97,6 +97,7 @@ modules:
       - lxappearance
       - swaybg
       # wm
+      - kitty
       - geany
       - niri
       - waybar
