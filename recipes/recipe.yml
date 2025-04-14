@@ -12,7 +12,7 @@ image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - type: files 
     files: # what is in /etc/skel/ gets copied to a newly created user’s $HOME automatically after rebooting 
-      - homedir: /usr/etc/skel
+      - files: /usr/etc/skel
       - usr: /usr
         
   - type: rpm-ostree
